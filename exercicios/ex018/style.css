@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+ 
+@font-face {
+  font-family: gov2;
+  src: url('fonts/go3v2.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: gov2, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+h1{
+  font-family: Lobster Two,sans-serif;  
+  font-size: 3em;
+  text-align: center;
+}

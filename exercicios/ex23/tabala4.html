@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        width: 300px;
+        text-align: center;
+      }
+      caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: black;
+        color: white;
+      }
+      td,
+      th {
+        border: 1px SOLID BLACK;
+        padding: 5px 30px 5px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Filmes Favoritos
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Grupo</th>
+          <th scope="col">Nomes</th>
+          <th scope="colgroup" colspan="3">Fimes</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="4">total</th>
+          <td>1000</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th scope="rowgroup" rowspan="3">Mulher</th>
+          <td>Ana Maria</td>
+          <td>Alien</td>
+          <td>Rambo</td>
+          <td>Vingadores</td>
+        </tr>
+        <tr>
+          <td>beatriz</td>
+          <td>Hulk</td>
+          <td>Inception</td>
+          <td>Batman</td>
+        </tr>
+        <tr>
+          <td>Cláudia</td>
+          <td>oblivion</td>
+          <td>Matrix</td>
+          <td>Big hero</td>
+        </tr>
+        <tr>
+          <th scope="rowgroup" rowspan="3">Homens</th>
+          <td>bruno</td>
+          <td>amnesia</td>
+          <td>gladiador</td>
+          <td>intocaveis</td>
+        </tr>
+        <tr>
+          <td>Daniel</td>
+          <td>Wall-E</td>
+          <td>oldboy</td>
+          <td>dangal</td>
+        </tr>
+        <tr>
+          <td>Fabiano</td>
+          <td>Star wars 5</td>
+          <td>Taxi driver</td>
+          <td>Toy story</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
